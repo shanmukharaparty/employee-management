@@ -28,6 +28,16 @@
         <sonar.login>admin</sonar.login>
         <sonar.password>password</sonar.password>
     </properties>
+    <distributionManagement>
+    <repository>
+        <id>nexus-releases</id>
+        <url>http://13.233.216.74:8081/repository/emp-release/</url>
+    </repository>
+    <snapshotRepository>
+        <id>nexus-snapshots</id>
+        <url>http://13.233.216.74:8081/repository/emp-snapshot/</url>
+    </snapshotRepository>
+   </distributionManagement>
 
     <dependencies>
         <dependency>
