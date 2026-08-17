@@ -30,11 +30,11 @@
     </properties>
     <distributionManagement>
     <repository>
-        <id>nexus-releases</id>
+        <id>nexus</id>
         <url>http://13.233.216.74:8081/repository/emp-release/</url>
     </repository>
     <snapshotRepository>
-        <id>nexus-snapshots</id>
+        <id>nexus</id>
         <url>http://13.233.216.74:8081/repository/emp-snapshot/</url>
     </snapshotRepository>
    </distributionManagement>
